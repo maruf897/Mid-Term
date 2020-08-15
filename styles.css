@@ -46,8 +46,7 @@ a:hover {
   border-width: 5px !important;
   border-color: rgb(252, 190, 161) !important;
 }
-.full {
-}
+
 .dev-icons {
   font-size: 3rem;
 }
@@ -60,6 +59,9 @@ button:hover {
 }
 footer {
   position: absolute;
+}
+.about-img {
+  display: none;
 }
 
 @media only screen and (max-width: 999px) {
@@ -82,9 +84,16 @@ footer {
 
   .content {
     margin-left: 5vw;
+    overflow: hidden;
   }
   footer {
     position: absolute;
     bottom: 0px;
+  }
+  .nav-img {
+    display: none;
+  }
+  .about-img {
+    display: block;
   }
 }
